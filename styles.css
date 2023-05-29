@@ -9,10 +9,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #050404;
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(226,235,230,1) 100%);
 }
 
 header{
-  background-color: #ffffff;
+  background: radial-gradient(circle, rgba(48,180,117,1) 76%, rgba(55,152,94,1) 100%);
   box-shadow: 0 10px 5px rgba(71, 107, 63, 0.009);
   padding: 10px;
   position: fixed;
@@ -36,6 +37,9 @@ h1{
   font-weight: bold;
   margin-right: 20px;
 }
+.nav {
+  background: radial-gradient(circle, rgba(117,214,167,1) 50%, rgba(21,176,83,1) 100%);
+}
 
 nav ul {
   display: inline-block;
@@ -48,12 +52,16 @@ nav li {
 }
 
 nav a {
-  color: #333;
+  color: #071805;
   text-decoration: none;
+  font-size: 1.1rem;
 }
 
 nav a:hover {
-  color: #6f8658;
+  color: #ffffff;
+  border-radius: 50rem;
+  background: #050404;
+  padding: 0.5rem 1.5rem;
 }
 
 main {
@@ -102,31 +110,30 @@ main {
   color: #fff;
 }
 
-#productos {
+#nosotros {
   padding: 40px;
-  background-color: #ffffff;
 }
 
-#productos h2 {
+#nosotros h2 {
   font-size: 36px;
   margin-bottom: 40px;
   text-align: center;
 }
 
-#productos ul {
+#nosotros ul {
  list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-#productos li {
+#nosotros li {
   margin: 20px;
   max-width: 300px;
   text-align: center;
 }
 
-#productos img {
+#nosotros img {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
@@ -140,18 +147,17 @@ main {
   transform: scale(1.1);
 }
 
-#productos h3 {
+#nosotros h3 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-#productos p {
+#nosotros p {
   font-size: 18px;
 }
 
 #contacto {
   padding: 40px;
-  background-color: #ffffff;
 }
 
 #contacto h2 {
@@ -200,7 +206,7 @@ button[type="submit"]:hover {
 }
 
 footer {
-  background-color: #ffffff;
+  background: radial-gradient(circle, rgba(48,180,117,1) 76%, rgba(55,152,94,1) 100%);
   color: #050404;
   padding: 40px;
   text-align: center;
